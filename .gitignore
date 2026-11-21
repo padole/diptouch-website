@@ -1,0 +1,12 @@
+# Dependencies and builds
+node_modules/
+dist/
+
+# Local-only files
+tiktok-kit/
+.claude/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
