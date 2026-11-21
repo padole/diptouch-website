@@ -4,6 +4,8 @@ export const business = {
   phoneTel: "+2347036004238",
   whatsapp: "2347036004238",
   email: "diptouchcleaning@gmail.com",
+  website: "https://diptouchcleaning.com/",
+  websiteDisplay: "diptouchcleaning.com",
   instagram: "diptouch_cleaning",
   instagramUrl: "https://www.instagram.com/diptouch_cleaning/",
   facebookUrl: "https://www.facebook.com/profile.php?id=61577827134563",

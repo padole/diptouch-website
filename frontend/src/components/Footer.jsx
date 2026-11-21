@@ -48,10 +48,8 @@ export default function Footer() {
               <a href={`mailto:${business.email}`}>{business.email}</a>
             </li>
             <li>
-              <InstagramIcon />
-              <a href={business.instagramUrl} target="_blank" rel="noreferrer">
-                @{business.instagram}
-              </a>
+              <GlobeIcon />
+              <a href={business.website}>{business.websiteDisplay}</a>
             </li>
             <li>
               <PinIcon />
@@ -89,6 +87,15 @@ function MailIcon() {
     <svg {...svgProps} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <rect x="2" y="4" width="20" height="16" rx="2" />
       <path d="m22 7-10 6L2 7" />
+    </svg>
+  );
+}
+
+function GlobeIcon() {
+  return (
+    <svg {...svgProps} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z" />
     </svg>
   );
 }
